@@ -15,7 +15,6 @@ function App() {
            <Route path="/contact_us" exact element={<ContactUs/>} />
            <Route path="/courses" exact element={<Courses/>} />
         </Routes>
- 
       </Layout >
     </div>
   );

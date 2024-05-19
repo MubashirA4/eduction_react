@@ -1,4 +1,5 @@
 import React from 'react'
+import './css/style.css'
 import Logo from '../asset/banner/logo.png'
 import { Link } from 'react-router-dom'
 const Header = () => {

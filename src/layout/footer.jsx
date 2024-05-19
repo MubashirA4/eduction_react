@@ -11,36 +11,36 @@ const Footer = () => {
         </div>
         <div className="grid_column2">
           <ul>
-            <li><a href><h3>Company</h3></a></li>
-            <li><a href>About us</a></li>
-            <li><a href>How to Work</a></li>
-            <li><a href>Popular Course</a></li>
-            <li><a href>Service</a></li>
+            <li><a><h3>Company</h3></a></li>
+            <li><a href = "#">About us</a></li>
+            <li><a href = "#">How to Work</a></li>
+            <li><a href = "#">Popular Course</a></li>
+            <li><a href = "#">Service</a></li>
           </ul>
         </div>
-        <div className="grid_column3">
+        <div className="grid_column2">
           <ul>
-            <li><a href><h3>Courses</h3></a></li>
-            <li><a href>Categories</a></li>
-            <li><a href>offline Course</a></li>
-            <li><a href>Video Courses</a></li>
+            <li><a><h3>Courses</h3></a></li>
+            <li><a href = "#">Categories</a></li>
+            <li><a href = "#">offline Course</a></li>
+            <li><a href ="#">Video Courses</a></li>
           </ul>
         </div>
-        <div className="grid_column4">
+        <div className="grid_column2">
           <ul>
-            <li><a href><h3>Support</h3></a></li>
-            <li><a href> FAQ</a></li>
-            <li><a href>Help center</a></li>
-            <li><a href>Career</a></li>
-            <li><a href>Privacy</a></li>
+            <li><a><h3>Support</h3></a></li>
+            <li><a href ="#"> FAQ</a></li>
+            <li><a href ="#">Help center</a></li>
+            <li><a href ="#">Career</a></li>
+            <li><a href ="#">Privacy</a></li>
           </ul>
         </div>
-        <div className="grid_column5">
+        <div className="grid_column2">
           <ul>
-            <li><a href><h3>Contact Info</h3></a></li>
-            <li><a href>+0913-705-3875</a></li>
-            <li><a href>example@gmail,.com</a></li>
-            <li><a href>4808 Skinner Hollow Road Days Creek, OR 97429</a></li>
+            <li><a><h3>Contact Info</h3></a></li>
+            <li><a href="#">+0913-705-3875</a></li>
+            <li><a href="#">example@gmail.com</a></li>
+            <li><a href="#">4808 Skinner Hollow Road Days Creek, OR 97429</a></li>
           </ul>
         </div>
       </div>
