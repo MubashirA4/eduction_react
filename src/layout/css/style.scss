@@ -1,33 +1,44 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
-    li{
+
+    li {
         list-style: none;
     }
-    a{
+
+    a {
         text-decoration: none;
+        &:hover {
+            color: #4D2C5E;
+        }
     }
 }
-header{
-    .nav_links{
-        ul{
-            li{
+
+header {
+    .nav_links {
+        ul {
+            li {
                 display: inline-block;
                 padding: 15px;
-                a{
+
+                a {
                     font-family: Roboto;
                     font-size: 18px;
                     font-weight: 600;
                     line-height: 21.09px;
                     text-align: left;
-                    color:#1D1D1D;
+                    color: #1D1D1D;
+                    
                 }
+                
             }
-            .btn_signin{
+
+            .btn_signin {
                 background-color: #4D2C5E;
                 border-radius: 50px;
                 padding: 10px 40px;
-                a{
+
+                a {
                     font-family: Roboto;
                     font-size: 20px;
                     font-weight: 500;
@@ -40,9 +51,10 @@ header{
 }
 
 // Footer
-footer{
+footer {
     background: #FDF8EE;
-    .inner_footer{
+
+    .inner_footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         max-width: 1250px;
@@ -51,35 +63,39 @@ footer{
         grid-gap: 40px;
         justify-content: space-between;
         border-bottom: 3px solid black;
-        
     }
-    .grid_column1{
-        p{
+
+    .grid_column1 {
+        p {
             font-family: Roboto;
             font-size: 18px;
             font-weight: 400;
             line-height: 31px;
             text-align: justified;
-            color:rgba(96, 96, 96, 1);
-        }    
+            color: rgba(96, 96, 96, 1);
+        }
     }
-    .grid_column2{
-        li{
+
+    .grid_column2 {
+        li {
             list-style-type: none;
             padding: 10px;
-            a{
-                color:rgba(96, 96, 96, 1);
+
+            a {
+                color: rgba(96, 96, 96, 1);
                 text-decoration: none;
-                h3{
+
+                h3 {
                     color: rgba(0, 5, 46, 1);
                 }
             }
         }
 
     }
-    .rights{
+
+    .rights {
         text-align: center;
         padding: 20px;
-        color: rgba(96, 96, 96, 1);    
+        color: rgba(96, 96, 96, 1);
     }
 }

@@ -8,9 +8,19 @@
 .navbar a {
   text-decoration: none;
 }
-
+.navbar a:hover { 
+  color: #4D2C5E;
+}
+header .nav_links{
+  display: flex;
+}
+header .nav_links a{
+  padding: 15px 10px ;
+}
+header .nav_links ul{
+  display: flex;
+}
 header .nav_links ul li {
-  display: inline-block;
   padding: 15px;
 }
 header .nav_links ul li a {
@@ -71,3 +81,13 @@ footer .rights {
   padding: 20px;
   color: rgb(96, 96, 96);
 }/*# sourceMappingURL=style.css.map */
+
+/* Responsive */
+@media screen and (max-width:600px) {
+  .nav_links ul{
+    /* display: flex; */
+    flex-direction: column;
+    width: auto;
+    text-align: left;
+  }
+}
