@@ -34,6 +34,16 @@ const Javascript = () => {
       age: 30
     }
     ];
+    // Object Constructor
+  // function Man(first, last, age, eye) {
+  //   this.firstName = first;
+  //   this.lastName = last;
+  //   this.age = age;
+  //   this.eyeColor = eye;
+  // }
+  // const myFather = new Man ("Maqbool","Ahmad", 55, "Black");
+  // document.getElementById('man').innerHTML = "My Father name is " + myFather.firstName + " " + myFather.lastName +
+  //  ". and age is " + myFather.age + ". And eye color is" + myFather.eyeColor;
 
   const filterData = person.filter((item)=> item?.lastName == "Ahmad" )
   
@@ -42,8 +52,33 @@ const Javascript = () => {
     alert('Hello');
     todo.push("Mubashir");
   }
+// name
+  let name = "Ali"
+  // document.getElementById('name').innerText = name;
+
+  function check(){
+    let iceCream = "Chocolate";
+    if(iceCream == "Chocolate"){
+      alert("Yay, it chocolate")
+    }
+    else{
+      alert("Alas! not a chocolate")
+    }
+  }
+
+  function Multiply(a,b){
+    let result = a * b;
+    return result;
+  }
+ 
+
   return (
     <div>
+      <marquee behavior="" direction="right">Hello</marquee>
+    <p id='man'></p>
+      {/* name */}
+      <p id="name"></p>
+      <button onClick={check}>Check</button>
       <h2>Javascript</h2>
       <button>Try it</button>
       <p id="aray"></p>

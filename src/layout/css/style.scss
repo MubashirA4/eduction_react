@@ -1,6 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     li {
         list-style: none;
@@ -19,9 +20,10 @@ header {
         ul {
             li {
                 display: inline-block;
-                padding: 15px;
+                
 
                 a {
+                padding: 15px;
                     font-family: Roboto;
                     font-size: 18px;
                     font-weight: 600;
@@ -65,7 +67,7 @@ footer {
         border-bottom: 3px solid black;
     }
 
-    .grid_column1 {
+    .col_logo_otr {
         p {
             font-family: Roboto;
             font-size: 18px;
@@ -76,7 +78,7 @@ footer {
         }
     }
 
-    .grid_column2 {
+    .col_link_otr, .col_contact_otr {
         li {
             list-style-type: none;
             padding: 10px;
@@ -84,8 +86,12 @@ footer {
             a {
                 color: rgba(96, 96, 96, 1);
                 text-decoration: none;
+                transition: all .3s;
 
                 h3 {
+                    color: rgba(0, 5, 46, 1);
+                }
+                &:hover{
                     color: rgba(0, 5, 46, 1);
                 }
             }

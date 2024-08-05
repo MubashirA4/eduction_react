@@ -24,7 +24,9 @@ const Tracks = () => {
                     </div>
                     <div className="slide">
                         <div class="card">
+                            <div className="img-otr">
                             <img src={Logo3} alt="UI/UX Design Course Image"></img>
+                            </div>
                             <div class="card-details">
                                 <span class="tag">UI/UX Design</span>
                                 <h2 class="card-title">UI/UX Design for Beginners</h2>
@@ -38,9 +40,11 @@ const Tracks = () => {
                                 </div>
                                 <button class="join-course">Join Course</button>
                             </div> 
-                        </div>
+                        </div> 
                         <div class="card">
+                            <div className="img-otr">
                             <img src={Logo4} alt="UI/UX Design Course Image"></img>
+                            </div>
                             <div class="card-details">
                                 <span class="tag">UI/UX Design</span>
                                 <h2 class="card-title">UI/UX Design for Beginners</h2>
@@ -55,7 +59,9 @@ const Tracks = () => {
                             </div>
                         </div>
                         <div class="card">
+                            <div className="img-otr">
                             <img src={Logo5} alt="UI/UX Design Course Image"></img>
+                            </div>
                             <div class="card-details">
                                 <span class="tag">UI/UX Design</span>
                                 <h2 class="card-title">UI/UX Design for Beginners</h2>

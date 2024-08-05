@@ -3,10 +3,12 @@ import Logo from '../../../asset/banner/OBJECTS.png'
 import Logo1 from '../../../asset/banner/online-test 1.png'  
 import Logo2 from '../../../asset/banner/exam 1.png'  
 import Logo3 from '../../../asset/banner/certification 1.png'  
+
+
 const Banner = () => {
   return (
     <div className='banner'>
-        <div className='page_width'>
+        <div className='page_width ' >
             <div className="banner_inner">
                 <div className="content">
                     <h2>The <span>Smart</span><br/>

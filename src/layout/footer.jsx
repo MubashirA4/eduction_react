@@ -5,37 +5,39 @@ const Footer = () => {
     <footer>
     <div className="page_width">
       <div className="inner_footer">
-        <div className="grid_column1">
+        <div className="col_logo_otr">
+          <a href="#">
           <img src={Logo} alt="" />
+          </a>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy a type specimen book.</p>
         </div>
-        <div className="grid_column2">
+        <div className="col_link_otr">
           <ul>
-            <li><a><h3>Company</h3></a></li>
+            <li><a href="#"><h3>Company</h3></a></li>
             <li><a href = "#">About us</a></li>
             <li><a href = "#">How to Work</a></li>
             <li><a href = "#">Popular Course</a></li>
             <li><a href = "#">Service</a></li>
           </ul>
         </div>
-        <div className="grid_column2">
+        <div className="col_link_otr">
           <ul>
-            <li><a><h3>Courses</h3></a></li>
+            <li><a href="#"><h3>Courses</h3></a></li>
             <li><a href = "#">Categories</a></li>
             <li><a href = "#">offline Course</a></li>
             <li><a href ="#">Video Courses</a></li>
           </ul>
         </div>
-        <div className="grid_column2">
+        <div className="col_link_otr">
           <ul>
-            <li><a><h3>Support</h3></a></li>
+            <li><a href="#"><h3>Support</h3></a></li>
             <li><a href ="#"> FAQ</a></li>
             <li><a href ="#">Help center</a></li>
             <li><a href ="#">Career</a></li>
             <li><a href ="#">Privacy</a></li>
           </ul>
         </div>
-        <div className="grid_column2">
+        <div className="col_contact_otr">
           <ul>
             <li><a><h3>Contact Info</h3></a></li>
             <li><a href="#">+0913-705-3875</a></li>
